@@ -1,6 +1,6 @@
 Recovering Early Hollywood
 
-An online database of copyright documents for early Hollywood films, featuring Optical Character Recognition (OCR) for enhanced accessibility and research.**
+**An online database of copyright documents for early Hollywood films, featuring Optical Character Recognition (OCR) for enhanced accessibility and research.**
 
 Project Overview
 The Recovering Early Hollywood project aims to create a comprehensive repository of copyright documents related to early Hollywood films. By digitizing and cataloging these historical documents, the platform will provide researchers, filmmakers, historians, and film enthusiasts with easy access to analyze, preserve, and explore the evolution of copyright in Hollywood.
