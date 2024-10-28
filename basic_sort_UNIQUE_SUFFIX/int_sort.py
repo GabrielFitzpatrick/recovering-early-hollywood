@@ -22,6 +22,29 @@ This module sorts lists of integers...
 
 
 def bubble(int_list):
+    print("bubble sort")
+    """
+    Bubble sort works by repeatedly stepping through the list, comparing each pair of
+    adjacent elements and swapping them if they are in the wrong order. The pass through
+    the list is repeated until the list is sorted.
+
+    Parameters:
+        int_list (list): A list of comparable elements to be sorted
+    
+    Returns:
+        list: The sorted list in ascending order
+    
+    Example:
+        >>> bubble([5, 3, 8, 4, 2])
+        [2, 3, 4, 5, 8]
+
+    Time Complexity:
+        Best case: O(n) when list is already sorted
+        Worst and Average Case: O(n^2) due to nested loops
+
+    Space Complexity:
+        O(1), since it is an in-place sorting algorithm
+    """
     n = len(int_list)
     for i in range(n):
         # Track if any swaps made in this iteration
@@ -36,8 +59,6 @@ def bubble(int_list):
         if not swapped:
             break
     return int_list
-
-    print("bubble sort")
 
 
 def quick(int_list):
