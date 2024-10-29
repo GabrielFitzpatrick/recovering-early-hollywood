@@ -1,4 +1,5 @@
-import os
+import os  # This import will trigger a warning from flake8
+
 def bubble_sort(arr):
     """
     Sorts an array of elements in ascending order using the bubble sort algorithm
