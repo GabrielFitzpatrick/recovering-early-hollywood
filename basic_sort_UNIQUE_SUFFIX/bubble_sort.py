@@ -17,6 +17,8 @@ def bubble_sort(arr):
     Space complexity:
         O(1), since it is an in-place sorting algorithm
     """
+    cwd = os.getcwd() 
+    print("Current working directory:", cwd) 
 
     n = len(arr)
     for i in range(n):
